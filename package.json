@@ -1,0 +1,15 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.9"
+  }
+}

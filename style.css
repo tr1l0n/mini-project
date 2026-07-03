@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 30px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#createPostForm {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#createPostForm input,
+#createPostForm textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#createPostForm textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#createPostForm button {
+    padding: 12px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#createPostForm button:hover {
+    background: #1d4ed8;
+}
+
+#postsContainer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.post h2 {
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.post p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.post button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.editPostButton {
+    background: #f59e0b;
+    color: white;
+}
+
+.editPostButton:hover {
+    background: #d97706;
+}
+
+.deletePostButton {
+    background: #ef4444;
+    color: white;
+}
+
+.deletePostButton:hover {
+    background: #dc2626;
+}
+
+.commentsContainer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.commentsContainer h3 {
+    margin-bottom: 10px;
+}
+
+.commentsContainer ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.commentsContainer li {
+    margin-bottom: 8px;
+}
+
+.createCommentForm {
+    display: flex;
+    gap: 10px;
+}
+
+.commentInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.createCommentForm button {
+    background: #22c55e;
+    color: white;
+}
+
+.createCommentForm button:hover {
+    background: #16a34a;
+}
+
+#download {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #7c3aed;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#download:hover {
+    background: #6d28d9;
+}
